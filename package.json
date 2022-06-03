@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Deiferson/api/issues"
   },
-  "homepage": "https://github.com/Deiferson/api#readme"
+  "homepage": "https://github.com/Deiferson/api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "sequelize": "^6.20.1"
+  }
 }
